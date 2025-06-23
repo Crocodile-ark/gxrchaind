@@ -1,7 +1,0 @@
-Querying commands for the testpbpulsar.Query service
-
-Usage:
-  test skipecho [flags]
-
-Flags:
-  -h, --help   help for skipecho
