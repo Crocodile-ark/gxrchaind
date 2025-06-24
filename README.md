@@ -4,7 +4,7 @@
   <em>Powered by Cosmos SDK</em>
 </div>
 
-![banner](docs/static/img/banner.png)
+![banner](docs/static/img/banner.jpg)
 
 <div align="center">
   <a href="https://github.com/Crocodile-ark/gxrchaind/blob/main/LICENSE">
