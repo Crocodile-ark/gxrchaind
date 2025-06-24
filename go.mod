@@ -1,6 +1,6 @@
 go 1.23.5
 
-module github.com/cosmos/cosmos-sdk
+module github.com/Crocodile-ark/gxrchaind
 
 require (
 	cosmossdk.io/api v1.0.0-rc.1
