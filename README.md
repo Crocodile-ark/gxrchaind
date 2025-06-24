@@ -37,7 +37,7 @@
 **GXR (Gen X Raider)** is a fast, lightweight, and modular blockchain built on the Cosmos SDK. Designed for maximum efficiency and scalability, GXR powers community-driven applications with a focus on:
 
 - 📉 Annual **Halving** Mechanism
-- 💸 **Staking** and **Proof-of-Stake (PoS)** Rewards
+- 💸 **Proof-of-Stake (PoS)** Rewards
 - 🌱 Decentralized **Airdrop** and **Farming**
 - ⚖️ On-chain **DAO Governance**
 - 🔄 Built-in **Token Swap** and **Liquidity Farming**
