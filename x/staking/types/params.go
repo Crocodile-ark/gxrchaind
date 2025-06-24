@@ -53,7 +53,7 @@ func DefaultParams() Params {
 		DefaultMaxValidators,
 		DefaultMaxEntries,
 		DefaultHistoricalEntries,
-		sdk.DefaultBondDenom,
+		"gen"
 		DefaultMinCommissionRate,
 	)
 }
