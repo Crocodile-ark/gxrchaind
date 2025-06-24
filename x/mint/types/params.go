@@ -25,7 +25,7 @@ func NewParams(mintDenom string, inflationRateChange, inflationMax, inflationMin
 // DefaultParams returns default x/mint module parameters.
 func DefaultParams() Params {
 	return Params{
-		MintDenom:           sdk.DefaultBondDenom,
+		MintDenom:           sdk.DefaultBondgen,
 		InflationRateChange: math.LegacyNewDecWithPrec(13, 2),
 		InflationMax:        math.LegacyNewDecWithPrec(20, 2),
 		InflationMin:        math.LegacyNewDecWithPrec(7, 2),
