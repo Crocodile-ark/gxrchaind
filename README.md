@@ -1,65 +1,103 @@
 <div align="center">
-  <h1> Cosmos SDK </h1>
+  <h1>GXR Blockchain</h1>
+  <strong>A lightweight modular chain for the next generation of Web3 pioneers</strong><br/>
+  <em>Powered by Cosmos SDK</em>
 </div>
 
 ![banner](docs/static/img/banner.jpg)
 
 <div align="center">
-  <a href="https://github.com/cosmos/cosmos-sdk/blob/main/LICENSE">
-    <img alt="License: Apache-2.0" src="https://img.shields.io/github/license/cosmos/cosmos-sdk.svg" />
+  <a href="https://github.com/Crocodile-ark/gxrchaind/blob/main/LICENSE">
+    <img alt="License: Apache-2.0" src="https://img.shields.io/github/license/Crocodile-ark/gxrchaind.svg" />
   </a>
-  <a href="https://pkg.go.dev/github.com/cosmos/cosmos-sdk">
-    <img src="https://pkg.go.dev/badge/github.com/cosmos/cosmos-sdk.svg" alt="Go Reference">
+  <a href="https://pkg.go.dev/github.com/Crocodile-ark/gxrchaind">
+    <img src="https://pkg.go.dev/badge/github.com/Crocodile-ark/gxrchaind.svg" alt="Go Reference">
   </a>
-  <a href="https://goreportcard.com/report/github.com/cosmos/cosmos-sdk">
-    <img alt="Go report card" src="https://goreportcard.com/badge/github.com/cosmos/cosmos-sdk" />
+  <a href="https://goreportcard.com/report/github.com/Crocodile-ark/gxrchaind">
+    <img alt="Go report card" src="https://goreportcard.com/badge/github.com/Crocodile-ark/gxrchaind" />
   </a>
 </div>
 <div align="center">
   <a href="https://discord.com/invite/interchain">
     <img alt="Discord" src="https://img.shields.io/discord/669268347736686612.svg" />
   </a>
-  <a href="https://sourcegraph.com/github.com/cosmos/cosmos-sdk?badge">
-    <img alt="Imported by" src="https://sourcegraph.com/github.com/cosmos/cosmos-sdk/-/badge.svg" />
+  <a href="https://sourcegraph.com/github.com/Crocodile-ark/gxrchaind?badge">
+    <img alt="Imported by" src="https://sourcegraph.com/github.com/Crocodile-ark/gxrchaind/-/badge.svg" />
   </a>
-  <a href="https://github.com/cosmos/cosmos-sdk/actions/workflows/sims.yml">
-    <img alt="Sims" src="https://github.com/cosmos/cosmos-sdk/workflows/Sims/badge.svg" />
-  <a href="https://github.com/cosmos/cosmos-sdk/actions/workflows/lint.yml"> 
-    <img alt="Lint Satus" src="https://github.com/cosmos/cosmos-sdk/workflows/Lint/badge.svg" />
+  <a href="https://github.com/Crocodile-ark/gxrchaind/actions/workflows/sims.yml">
+    <img alt="Sims" src="https://github.com/Crocodile-ark/gxrchaind/workflows/Sims/badge.svg" />
+  <a href="https://github.com/Crocodile-ark/gxrchaind/actions/workflows/lint.yml"> 
+    <img alt="Lint Status" src="https://github.com/Crocodile-ark/gxrchaind/workflows/Lint/badge.svg" />
 </div>
 
-The Cosmos SDK is a framework for building blockchain applications. [CometBFT (BFT Consensus)](https://github.com/cometbft/cometbft) and the Cosmos SDK are written in the Go programming language. Cosmos SDK is used to build [Gaia](https://github.com/cosmos/gaia), the implementation of the Cosmos Hub.
+---
 
-**WARNING**: The Cosmos SDK has mostly stabilized, but we are still making some breaking changes.
+## 🌀 What is GXR?
 
-**Note**: We advise to always use the latest maintained [Go](https://go.dev/dl) version for building Cosmos SDK applications.
+**GXR (Gen X Raider)** is a fast, lightweight, and modular blockchain built on the Cosmos SDK. Designed for maximum efficiency and scalability, GXR powers community-driven applications with a focus on:
 
-## Quick Start
+- 📉 Annual **Halving** Mechanism
+- 💸 **Staking** and **Proof-of-Stake (PoS)** Rewards
+- 🌱 Decentralized **Airdrop** and **Farming**
+- ⚖️ On-chain **DAO Governance**
+- 🔄 Built-in **Token Swap** and **Liquidity Farming**
+- 💰 Fee Sharing for **LPs** and **Stakers**
 
-To learn how the Cosmos SDK works from a high-level perspective, see the Cosmos SDK [High-Level Intro](https://docs.cosmos.network/main/intro/overview).
+GXR limits supply to 75 million tokens with fair distribution and long-term sustainability in mind. It offers simple modules, clean code, and real economic incentives — perfect for builders who want control without complexity.
 
-If you want to get started quickly and learn how to build on top of Cosmos SDK, visit [Cosmos SDK Tutorials](https://tutorials.cosmos.network). You can also fork the tutorial's repository to get started building your own Cosmos SDK application.
+---
 
-For more information, see the [Cosmos SDK Documentation](https://docs.cosmos.network).
+## 🚀 Quick Start
 
-## Modules
+Want to build on top of GXR?
 
-The Cosmos SDK maintains a set of modules that can be included in your blockchain application.  For more information
-on modules, see our [introduction doc](./x/README.md).
+Start by learning how Cosmos SDK works from a high-level view via the [Cosmos SDK Overview](https://docs.cosmos.network/main/intro/overview).
 
-## Tools and Frameworks
+Then dive into tutorials here: [Cosmos SDK Tutorials](https://tutorials.cosmos.network) and customize them for your own GXR-based application.
 
-The Cosmos ecosystem is vast.
-[Awesome Cosmos](https://github.com/cosmos/awesome-cosmos) is a community-curated list of notable frameworks, modules and tools.
+---
 
-### Cosmos Hub Mainnet
+## 🧱 Core Modules
 
-The Cosmos Hub application, `gaia`, has its own [cosmos/gaia repository](https://github.com/cosmos/gaia). Go there to join the Cosmos Hub mainnet and more.
+GXR includes a lean set of modules for efficiency and clarity:
 
-### Inter-Blockchain Communication (IBC)
+- Cosmos Standard: `auth`, `bank`, `staking`, `gov`, `distribution`
+- Custom GXR Modules: `halving`, `swap`, `lp_reward`, `dao`
 
-The IBC module for the Cosmos SDK has its own [cosmos/ibc-go repository](https://github.com/cosmos/ibc-go). Go there to build and integrate with the IBC module.
+Each module is well-isolated and optimized for mobile and low-resource environments.
 
-## Disambiguation
+For details, check the [`x/`](./x/) folder.
 
-This Cosmos SDK project is not related to the [React-Cosmos](https://github.com/react-cosmos/react-cosmos) project (yet). Many thanks to Evan Coury and Ovidiu (@skidding) for this Github organization name. As per our agreement, this disambiguation notice will stay here.
+---
+
+## 🌐 IBC & Interoperability
+
+GXR is fully compatible with the **Inter-Blockchain Communication (IBC)** protocol. Cross-chain swaps, bridges, and asset transfers are supported via [ibc-go](https://github.com/cosmos/ibc-go), allowing seamless connection with other Cosmos-based chains.
+
+---
+
+## 🔧 Developer Tools
+
+Explore a rich set of community-built tools via [Awesome Cosmos](https://github.com/cosmos/awesome-cosmos).
+
+Build, test, and launch your chain using:
+
+- `ignite` scaffolding
+- `tendermint` CLI tools
+- Dockerized validator nodes
+- Custom APIs and explorers
+
+---
+
+## ⚠️ Disclaimer
+
+GXR is under active development. Expect frequent updates and improvements. Always use the latest stable Go version when building from source.
+
+---
+
+## ❓ Not That Cosmos
+
+This project is not related to [React Cosmos](https://github.com/react-cosmos/react-cosmos). This note remains here as part of the naming agreement.
+
+---
+
